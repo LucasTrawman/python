@@ -1,0 +1,30 @@
+. any character except a newline
+* 0 or more repetitions
++ 1 or more repetitions
+? 0 or 1 repetition
+{m} m repetitions
+{m,n} m to n repetitions "I think"
+
+\ make the next thing assume it's raw value
+^ indicates that the string has to start with that
+$ indicates that the string has to start with what is before
+:= You will assign a value to the variable on the left and ask a boolean expressionin the same time
+
+[] means that only the things that are inside can be accepted
+[^] means that only the things that are inside can't be accepted
+[a-zA-Z0-9] the - can make you include all the letters between a and z, A and Z and 0 and 9
+() you need to have what is inside
+(edu|gov) I means that you need to have one of the two options, you can use even more if you want
+(?:) it means that you want to use it without caring about returning this value
+
+\d decimal digit
+\D not a decimal digit
+\s whitespace characters
+\S not a whitespace character
+\w word character ... as words numbers and the underline
+\W now a word character
+
+#flags#
+re.IGNORECASE will ignore if the character is in lower or uppercase
+re.MULTILINE will let accept new lines(I think)
+re.DOTALL when you use . it now can mean a new line too

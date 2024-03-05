@@ -1,0 +1,5 @@
+with open("names.txt", "variable") as file:
+
+variable a = append -> will add the text to the end of the file
+variable w = write -> will erase everything and write in the file
+variable r = read -> will read the file

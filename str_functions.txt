@@ -1,0 +1,9 @@
+str.startswith("something")
+str.strip("x")
+str.lower()
+str.title()
+str.split(" ")
+str.replace("0", "1")
+str.isupper()
+str.rstrip() -> remove all white spaces at the end and beginning of the string
+str.removeprefix("thing you want to remove from the str")

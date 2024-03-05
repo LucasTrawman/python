@@ -1,0 +1,6 @@
+mypy (program name)
+
+it will make you test if your variables have the correct types using for example (variable: int) (: int) this part is what make it work
+
+meow(variable) -> str:
+this is the signal that the function have to return a str (->) different than the variable indicate symbol

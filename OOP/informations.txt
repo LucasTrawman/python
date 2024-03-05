@@ -1,0 +1,19 @@
+everything in python is actually a class, like a int, a str, a list, a dictionary. All those things are actually a class that can give origin to an object
+
+types:
+tuple() = ()
+list() = []
+dict() = {}
+int() = 54
+
+You should use the first letter of every function you create Capitalized, because python functions and classes are all lowercase, so, for to
+any errors to happen without knowing, you should make the first letter of your classes and functions in uppercase
+
+@staticmethod exist
+
+tuple:
+    return name, house
+    or
+    return (name, house)
+
+    in this case, tuple is kinda a list that will return an imutable list with in this case the variables name and house
