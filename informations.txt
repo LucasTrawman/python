@@ -1,0 +1,9 @@
+indentations programs:
+
+pylint - pip install pylint
+
+pycodestyle - pip install pycodestyle
+
+black - pip install black
+
+to test a file use "pytest (file name)"
